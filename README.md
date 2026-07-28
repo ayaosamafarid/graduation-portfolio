@@ -1,41 +1,36 @@
-# graduation-portfolio
-Graduation Project for the Prompt Engineering and AI Linguistics Diploma at Motrjim Academy
-This repository contains my graduation portfolio for the **Prompt Engineering & AI Linguistics Diploma**. It showcases the practical tasks and projects I completed throughout the program, demonstrating skills in prompt engineering, data cleaning, data annotation, and red teaming.
+# Graduation Portfolio
 
-## Portfolio Contents
+## 👩‍💻 About ME
 
-### 1. Master Prompt
+I'm Aya Osama Farid, prompt engineer, AI linguist and medical and general translator with medical background. This repository showcases the practical projects and assignments I completed throughout the diploma, demonstrating my skills in prompt engineering, AI data cleaning, data annotation, and safety evaluation.
 
-Designed and developed master prompts to improve AI performance, consistency, and response quality.
+---
 
-### 2. iso-Prompt Lab (Google AI Studio)
+## 📂 Portfolio Tasks
 
-Created, tested, and optimized prompts using **Google AI Studio**, following **ISO standards 17100 / 18587 / 9001** for prompt design and evaluation.
+| Task | Description | Repository Link |
+|------|-------------|-----------------|
+| Master Prompt | Designing and evaluating high-quality prompts. | [View Folder](./Master-Prompt/) |
+| Prompt Lab | Prompt experimentation using Google AI Studio following ISO-aligned practices. | [View Folder](./Prompt-Lab/) |
+| Data Cleaning | Data preprocessing and cleaning using Google Colab. | [View Folder](./Data-Cleaning/) |
+| Data Annotation | Dataset annotation using Label Studio. | [View Folder](./Data-Annotation/) |
+| Red Teaming | AI risk assessment and red teaming based on the EU AI Act. | [View Folder](./Red-Teaming/) |
 
-### 3. Data Cleaning (Google Colab)
+---
 
-Performed data cleaning using **Google Colab** to prepare datasets for AI workflows.
+## 🛠️ Tools & Technologies
 
-### 4. Data Annotation (Label Studio)
+- Google AI Studio
+- Google Colab
+- Label Studio
+- GitHub
+- Markdown
+- Prompt Engineering
+- EU AI Act
 
-Annotated datasets using **Label Studio** for NER and prompt classification.
+---
 
-### 5. Red Teaming (EU AI Act)
+## 📧 Contact
 
-Conducted AI red teaming exercises to identify potential risks, vulnerabilities, and compliance considerations based on the principles of the **EU AI Act**.
-
-## Skills Demonstrated
-
-* Prompt Engineering
-* ISO-based Prompt Practices
-* AI Evaluation
-* Google AI Studio
-* Google Colab
-* Data Cleaning
-* Data Annotation
-* Label Studio
-* Red Teaming
-
-## Author
-
-Graduation Portfolio for the Prompt Engineering & AI Linguistics Diploma.
+- **Email:** aya.osama.farid@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/aya-osama-farid 
