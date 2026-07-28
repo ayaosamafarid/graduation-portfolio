@@ -1,4 +1,4 @@
-# graduation-portfolio
+# Graduation-Portfolio
 Graduation Project for the Prompt Engineering and AI Linguistics Diploma at Motrjim Academy
 This repository contains my graduation portfolio for the **Prompt Engineering & AI Linguistics Diploma**. It showcases the practical tasks and projects I completed throughout the program, demonstrating skills in prompt engineering, data cleaning, data annotation, and red teaming.
 
