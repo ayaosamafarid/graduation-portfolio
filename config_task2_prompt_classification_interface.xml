@@ -1,0 +1,59 @@
+<!--
+  Label Studio Labeling Interface — Task 2: Prompt Classification
+  Import file: ls_task2_prompt_classification_tasks.json
+  How to use: Projects > Settings > Labeling Interface > Code > paste this XML.
+  Each task shows the PROMPT (and a context hint). Annotate technique(s), quality, and risk.
+-->
+<View>
+  <Style>
+    .prompt-box { background:#0f1b2d; color:#f4ecd8; padding:14px; border-radius:8px;
+                  font-size:15px; line-height:1.6; white-space:pre-wrap; }
+    .ctx { color:#8a94a6; font-size:12px; margin-top:6px; }
+  </Style>
+
+  <Header value="Prompt to classify"/>
+  <View className="prompt-box">
+    <Text name="prompt" value="$prompt"/>
+  </View>
+  <Text name="context" value="$context" className="ctx"/>
+
+  <Header value="1) Which prompt-engineering techniques are PRESENT? (multi-select)"/>
+  <Choices name="techniques" toName="prompt" choice="multiple" showInLine="true">
+    <Choice value="role_persona"/>
+    <Choice value="few_shot"/>
+    <Choice value="chain_of_thought"/>
+    <Choice value="decomposition_steps"/>
+    <Choice value="output_format_control"/>
+    <Choice value="constraints_rules"/>
+    <Choice value="priority_ordering"/>
+    <Choice value="self_check_or_confidence"/>
+    <Choice value="anti_hallucination"/>
+    <Choice value="defer_to_human"/>
+    <Choice value="back_translation_qa"/>
+    <Choice value="none_bare_instruction"/>
+  </Choices>
+
+  <Header value="2) Overall prompt QUALITY tier"/>
+  <Choices name="quality" toName="prompt" choice="single" showInLine="true">
+    <Choice value="poor_underspecified"/>
+    <Choice value="workable_needs_edits"/>
+    <Choice value="strong_production_ready"/>
+    <Choice value="self_contradictory"/>
+  </Choices>
+
+  <Header value="3) RISK / safety flag"/>
+  <Choices name="risk" toName="prompt" choice="single" showInLine="true">
+    <Choice value="safe"/>
+    <Choice value="prompt_injection_or_jailbreak"/>
+    <Choice value="policy_violation_request"/>
+    <Choice value="high_stakes_quality_lowering"/>
+  </Choices>
+
+  <Header value="4) Rate overall (1 = unusable, 5 = exemplary)"/>
+  <Rating name="rating" toName="prompt" maxRating="5" icon="star"/>
+
+  <Header value="5) One-line justification (cite the words that decided it)"/>
+  <TextArea name="justification" toName="prompt"
+            placeholder="e.g. 'Ignore all previous instructions' -> jailbreak; no format -> poor"
+            rows="2" maxSubmissions="1" required="true"/>
+</View>

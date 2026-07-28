@@ -1,0 +1,50 @@
+<!--
+  Label Studio Labeling Interface — Task 1: Legal Named Entity Recognition (NER)
+  Import file: ls_task1_NER_legal_tasks.json
+  How to use: Projects > Settings > Labeling Interface > Code > paste this XML.
+  Shortcuts (keys) are assigned so annotators can label quickly.
+-->
+<View>
+  <Header value="Legal NER — select a span, then press the entity key/label"/>
+  <Labels name="label" toName="text">
+    <Label value="ORG"          background="#2E86AB" hotkey="1"/>
+    <Label value="PERSON"       background="#A23B72" hotkey="2"/>
+    <Label value="ROLE"         background="#6A4C93" hotkey="3"/>
+    <Label value="COURT"        background="#1B998B" hotkey="4"/>
+    <Label value="LAW_STATUTE"  background="#C73E1D" hotkey="5"/>
+    <Label value="CASE"         background="#3D5A80" hotkey="6"/>
+    <Label value="JURISDICTION" background="#8D6A9F" hotkey="7"/>
+    <Label value="DATE"         background="#E09F3E" hotkey="8"/>
+    <Label value="MONEY"        background="#588157" hotkey="9"/>
+    <Label value="LEGAL_TERM"   background="#9C6644" hotkey="0"/>
+  </Labels>
+
+  <Text name="text" value="$text"/>
+
+  <Header value="Segment-level check"/>
+  <Choices name="difficulty" toName="text" choice="single" showInLine="true">
+    <Choice value="clear"/>
+    <Choice value="ambiguous_boundary"/>
+    <Choice value="nested_entity"/>
+  </Choices>
+
+  <TextArea name="annotator_note" toName="text"
+            placeholder="Optional: note any ambiguity (e.g. is 'DIFC Courts' COURT or JURISDICTION?)"
+            rows="2" maxSubmissions="1"/>
+</View>
+
+<!--
+  ENTITY DEFINITIONS (annotation guideline summary):
+  ORG          = companies, banks, institutions, auditors (e.g. First Gulf Bank PJSC, Deloitte).
+  PERSON       = named natural persons (e.g. Lord Atkin, Mr. Khalid Al-Rashid).
+  ROLE         = legal role labels of a party (Buyer, Seller, Claimant, Respondent, Trustee, Licensor).
+  COURT        = named judicial bodies/tribunals (DIFC Courts, House of Lords, ICC tribunal).
+  LAW_STATUTE  = named laws, articles, regulations, decrees (Article 6 GDPR, Federal Decree-Law No. 33 of 2021).
+  CASE         = case citations / case names (Donoghue v Stevenson [1932] UKHL 100, Case No. HC-2023-000412).
+  JURISDICTION = governing-law places / legal territories (DIFC, England and Wales, State of Kuwait).
+  DATE         = any date or date-like period reference (26 May 1932, Q1 2026, ninety (90) days).
+  MONEY        = monetary amounts incl. currency (USD 4,750,000, EUR 15,000, EGP 250,000,000).
+  LEGAL_TERM   = doctrine/term of art (negligence, ultra vires, escrow account, injunctive relief).
+  Boundary rules: label the maximal contiguous span; for "DIFC Courts" prefer COURT over JURISDICTION;
+  currency symbol/word is PART of the MONEY span; article number is PART of the LAW_STATUTE span.
+-->
