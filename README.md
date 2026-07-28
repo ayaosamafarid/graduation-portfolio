@@ -23,9 +23,11 @@ I'm Aya Osama Farid, prompt engineer, AI linguist and medical and general transl
 - Google AI Studio
 - Google Colab
 - Label Studio
-- GitHub
+- Git & GitHub
 - Markdown
+- Jason
 - Prompt Engineering
+- Paython
 - EU AI Act
 
 ---
