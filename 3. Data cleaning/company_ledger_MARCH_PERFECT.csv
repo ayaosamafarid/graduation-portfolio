@@ -1,0 +1,40 @@
+﻿Trans_ID,Date,Description,Category,Type,Amount,Currency,Vendor,Notes,Amount_Original,Amount_EGP,Financial_Type,Financial_Category
+TX-1001,2025-03-01,Office rent - March,Rent,Expense,"12,000.00",EGP,Cairo business park,,12000.0,12000.0,Expense,Rent
+TX-1002,2025-03-01,Google Workspace subscription,Software,Expense,49.99,USD,Google,auto-renew,49.99,2499.5,Expense,Software
+TX-1003,2025-03-01,Facebook Ads campaign (leads),Marketing,Expense,3500,EGP,Meta,Q1 push,3500.0,3500.0,Expense,Marketing
+TX-1004,2025-03-02,Facebook Ads campaign,Marketing,Expense,"3,500",EGP,Meta,dup?? same as above,3500.0,3500.0,Expense,Marketing
+TX-1005,2025-03-02,Salaries - sales team,Payroll,Expense,45000,EGP,Nan,net after tax,45000.0,45000.0,Expense,Payroll
+TX-1006,2025-03-05,Course revenue - Legal Diploma cohort 28,Revenue,Income,"78,400.00",EGP,Multiple,,78400.0,78400.0,Income,Revenue
+TX-1008,2025-03-06,Refund - student withdrawal,Revenue,Expense,(1400),EGP,N. salem,negative in parens,-1400.0,-1400.0,Contra-Revenue,Revenue
+TX-1009,2025-03-06,Zoom Pro annual,Software,Expense,149.90,USD,Zoom,,149.9,7495.0,Expense,Software
+TX-1011,2025-03-03,Freelance video editor,Contractors,Expense,"2,000",EGP,K. adel,,2000.0,2000.0,Expense,Contractors
+TX-1013,2025-03-03,Motrjim Power subscriptions (42 users),Revenue,Income,"12,600",EGP,Multiple,42 x 300,12600.0,12600.0,Income,Revenue
+TX-1014,2025-03-03,Hosting - Hostinger,Hosting,Expense,89,USD,Hostinger,annual,89.0,4450.0,Expense,Hosting
+TX-1016,2025-03-03,Printing - certificates,Supplies,Expense,850,EGP,Print house,,850.0,850.0,Expense,Supplies
+TX-1017,2025-03-12,Coffee / office pantry,Supplies,Expense,"1,240.5",EGP,Metro,,1240.5,1240.5,Expense,Supplies
+TX-1018,2025-03-13,Instagram Ads,Marketing,Expense,1800,EGP,Meta,,1800.0,1800.0,Expense,Marketing
+TX-1020,2025-03-15,Course revenue - Linguistics Eng,Revenue,Income,"64,900.00",EGP,Multiple,,64900.0,64900.0,Income,Revenue
+TX-1021,2025-03-15,VAT payment Q4-2024,Tax,Expense,9800,EGP,Eta,,9800.0,9800.0,Expense,Tax
+TX-1022,2025-03-16,Laptop for new hire,Equipment,Expense,"22,000",EGP,B.tech,capitalize?,22000.0,22000.0,Expense,Equipment
+TX-1025,2025-03-18,Water bill,Utilities,Expense,210,EGP,Nan,,210.0,210.0,Expense,Utilities
+TX-1026,2025-03-20,Sponsored post - influencer,Marketing,Expense,5000,EGP,@lingua_omar,,5000.0,5000.0,Expense,Marketing
+TX-1027,2025-03-20,Course revenue - AI Governance,Revenue,Income,"41,200",EGP,Multiple,,41200.0,41200.0,Income,Revenue
+TX-1028,2025-03-21,Notebooks and pens,Supplies,Expense,430,EGP,Metro,,430.0,430.0,Expense,Supplies
+TX-1029,2025-03-22,Salaries - admin,Payroll,Expense,28000,EGP,Nan,,28000.0,28000.0,Expense,Payroll
+TX-1031,2025-03-24,Facebook Ads - retargeting,Marketing,Expense,"2,200",EGP,Meta,header repeated above by mistake,2200.0,2200.0,Expense,Marketing
+TX-1032,2025-03-24,Domain renewal motrjim.com,Hosting,Expense,15,USD,Namecheap,,15.0,750.0,Expense,Hosting
+TX-1033,2025-03-25,Course revenue - Vibe Coding,Revenue,Income,33750,EGP,Multiple,,33750.0,33750.0,Income,Revenue
+TX-1034,2025-03-25,Bank interest received,Revenue,Income,180,EGP,Cib,,180.0,180.0,Income,Revenue
+TX-1035,2025-03-26,Office cleaning service,Services,Expense,600,EGP,Nan,,600.0,600.0,Expense,Services
+TX-1036,2025-03-27,ChatGPT Plus x3 seats,Software,Expense,60,USD,Openai,3 x 20,60.0,3000.0,Expense,Software
+TX-1038,2025-03-28,Course revenue - Red Teaming workshop,Revenue,Income,"18,900.00",EGP,Multiple,,18900.0,18900.0,Income,Revenue
+TX-1039,2025-03-28,Refund - duplicate charge,Revenue,Expense,(300),EGP,Student,,-300.0,-300.0,Contra-Revenue,Revenue
+TX-1040,2025-03-29,Transport / delivery,Logistics,Expense,540,EGP,Bosta,,540.0,540.0,Expense,Logistics
+TX-1041,2025-03-29,Salaries - instructors (part-time),Payroll,Expense,"36,000",EGP,Nan,4 instructors,36000.0,36000.0,Expense,Payroll
+TX-1042,2025-03-30,Facebook Ads,Marketing,Expense,4100,EGP,Meta,,4100.0,4100.0,Expense,Marketing
+TX-1043,2025-03-30,LinkedIn Ads,Marketing,Expense,120,USD,Linkedin,,120.0,6000.0,Expense,Marketing
+TX-1044,2025-03-31,Course revenue - Corpus Linguistics,Revenue,Income,"29,300",EGP,Multiple,,29300.0,29300.0,Income,Revenue
+TX-1046,2025-03-31,Miscellaneous,Misc,Expense,900,EGP,Nan,,900.0,900.0,Expense,Misc
+TX-1047,2025-03-31,Sponsorship - university event,Marketing,Expense,"7,500",EGP,Ain shams,,7500.0,7500.0,Expense,Marketing
+TX-1048,2025-03-31,Course revenue - Data Annotation,Revenue,Income,52000,EGP,Multiple,,52000.0,52000.0,Income,Revenue
+TX-1050,2025-03-31,Owner drawing,Equity,Expense,"10,000",EGP,Yassin,not an operating expense,10000.0,10000.0,Non-Operating Expense,Non-Operating
